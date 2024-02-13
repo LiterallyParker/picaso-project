@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+}
+
+.topBackground {
+    display: flex;
+    justify-content: center;
+    padding: 0% 30%;
+}
+
+.backbox {
+    display: flex;
+    font-size: 75px;
+    background-color: rgb(27, 153, 140);
+}
+
+.background1, .background2, .background3 {
+    background-color: rgb(27, 153, 140);
+    margin: 1.2%;
+    padding: 15% 35%;
+}
+.background4 {
+    margin: 1% 7%;
+    padding: 0px;
+}
+.background5 {
+    margin: 1% 7%;
+    padding: 10px;
+    background-color: greenyellow;
+}
+.people {
+    display: flex;
+    padding: 25% 0 0 0;
+}
+.people1 {
+    z-index: 2;
+    color: rgb(82, 191, 227);
+    display: flex;
+    letter-spacing: -20px;
+    font-size: 10rem;
+}
+.people2 {
+    z-index: 2;
+    color: rgb(57, 88, 89);
+    display: flex;
+    letter-spacing: -20px;
+    font-size: 10rem;
+    padding: 0px;
+}
+.yellow {
+    color: yellow;
+}
+.pink {
+    color: pink;
+}
+.darkGreen {
+    color: darkgreen;
+}
+.circles {
+    display: flex;
+    position: fixed;
+    font-size: 3rem;
+}
+.circle1 {
+    position: fixed;
+    top: 13%;
+    left: 10%;
+}
+.circle2 {
+    position: fixed;
+    top: 40%;
+    left: 10%;
+}
+.circle3 {
+    position: fixed;
+    top: 15%;
+    left: 23%;
+    font-size: 8rem;
+}
+.circle4 {
+    position: fixed;
+    top: 15%;
+    left: 40%;
+}
+.circle5 {
+    position: fixed;
+    top: 30%;
+    left: 32.3%;
+    font-size: 8rem;
+}
+.circle6 {
+    position: fixed;
+    top: 45%;
+    left: 23%;
+}
+.triangles {
+    display: flex;
+    position: fixed;
+    right: 7%;
+    bottom: 4.5%;
+    align-items: baseline;
+}
+img {
+    width: 500px;
+}
+.triangle1 img {
+    height: 700px;
+}
+.triangle1 {
+    margin: -150px
+}
+form {
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    text-align: center;
+}
+input {
+    font-size: 1rem;
+}
+@media (max-height: 940px) and (max-width: 500px) {
+    .circles {
+        font-size: 1rem;
+    }
+    .circle1 {
+        top: 27%;
+    }
+    .circle2 {
+        top: 36%;
+    }
+    .circle3 {
+        font-size: 2.5rem;
+        top: 26%;
+        left: 20%;
+    }
+    .circle4 {
+        top: 28%;
+    }
+    .circle5 {
+        font-size: 2.5rem;
+        top: 31%;
+        left: 31.5%;
+    }
+    .circle6 {
+        top: 38%;
+    }
+    .people1, .people2 {
+        font-size: 3rem;
+        letter-spacing: -6px;
+    }
+    img {
+        width: 125px;
+
+    }
+    .triangle1 img {
+        height: 175px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        padding: 10px;
+    }
+    input {
+        margin: 10px;
+        font-size: 1rem;
+    }
+    .triangle1 {
+        margin: -50px;
+    }
+    .triangles {
+        top: 38.5%;
+    }
+}
